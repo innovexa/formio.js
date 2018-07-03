@@ -1,5 +1,5 @@
 {
-  "name": "formiojs",
+  "name": "guoshen-formiojs",
   "version": "3.0.0-rc.15",
   "description": "Common js library for client side interaction with <form.io>",
   "main": "index.js",
@@ -77,6 +77,7 @@
     "signature_pad": "^2.3.2",
     "text-mask-addons": "^3.7.2",
     "tooltip.js": "^1.2.0",
+    "user": "0.0.0",
     "vanilla-text-mask": "^5.1.1",
     "whatwg-fetch": "^2.0.4"
   },
