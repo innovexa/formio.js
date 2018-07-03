@@ -1,5 +1,5 @@
 {
-  "name": "formiojs",
+  "name": "innovexa-formiojs",
   "version": "3.0.0-rc.15",
   "description": "Common js library for client side interaction with <form.io>",
   "main": "index.js",
