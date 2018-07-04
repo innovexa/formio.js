@@ -68,9 +68,11 @@ export default class PanelComponent extends NestedComponent {
       this.createTooltip(title);
       heading.appendChild(title);
       this.setCollapseHeader(heading);
-      this.element.appendAfter(heading);
+      this.element.appendChild(heading);
     }
+    else {
       this.createTooltip(this.panelBody, this.component, `${this.iconClass('question-sign')} text-muted formio-hide-label-panel-tooltip`);
+    }
 
     this.addComponents();
     this.element.appendChild(this.panelBody);
